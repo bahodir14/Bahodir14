@@ -1,0 +1,78 @@
+/* header */
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+html{
+   
+}
+body{
+    background-color: rgb(36, 31, 31);
+}header{
+    display: flex;
+    height: 100px;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: fixed ;
+    top: 0;
+    background-color: black;
+    width: 100%;
+}
+
+.main__logo-img img{
+    width: 64px;
+    border-radius: 50%;
+    margin-right:  100px;
+}
+
+.main__logo-img img:hover{
+    width: 128px;
+}
+
+.main__kursors{
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+}
+
+.tire{
+    margin-top: 15px;
+    display: inline-block;
+}
+.main__kursors a{
+    padding: 15px;
+    color: #8f5165;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main__kursors a:hover{
+    color: rgb(102, 190, 171);
+}
+
+.language img{
+    width: 30px;
+    border-radius: 8px;
+}
+
+.language{
+    /* text-align: center; */
+    margin-top: 10px;
+    margin-left: 100px;
+    display: inline-block;
+
+}
+
+.language a{
+    text-transform: uppercase;
+}
+
+.language a:active{
+    color: red;
+}
+
+.language a:hover{
+    color: rgb(31, 104, 214);
+}

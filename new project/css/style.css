@@ -1,0 +1,243 @@
+/* header */
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+}
+
+body{
+width: 100%;
+background-image: url(  ../img/hacker.webp);
+/* background-repeat:no-repeat; */
+
+}
+.container{
+    /* margin-top: 20px; */
+    width: 100%;
+    /* background-image: url(../img/hacker.webp); */
+    /* background-repeat: no-repeat; */
+}
+
+
+header{
+    display: flex;
+    height: 100px;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: fixed ;
+    top: 0;
+    background-color: black;
+    width: 100%;
+        left: 0;
+}
+
+.main__logo-img img{
+    width: 64px;
+    border-radius: 50%;
+    margin-right:  100px;
+}
+
+.main__logo-img img:hover{
+    width: 128px;
+}
+
+.main__kursors{
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+}
+
+.tire{
+    margin-top: 15px;
+    display: inline-block;
+}
+.main__kursors a{
+    padding: 15px;
+    color: #8f5165;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main__kursors a:hover{
+    color: rgb(102, 190, 171);
+}
+
+.language img{
+    width: 30px;
+    border-radius: 8px;
+}
+
+.language{
+    /* text-align: center; */
+    margin-top: 10px;
+    margin-left: 100px;
+    display: inline-block;
+
+}
+
+.language a{
+    text-transform: uppercase;
+}
+
+.language a:active{
+    color: red;
+}
+
+.language a:hover{
+    color: rgb(31, 104, 214);
+}
+ /* body center */
+
+.body{
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px
+}
+
+.body__salom{
+    text-transform:uppercase ;
+    opacity: 0.5;
+    color:rgb(202, 193, 193);
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.body__salom:hover{
+    color: white;
+    opacity: 1;
+    text-shadow:1px 3px rgb(158, 154, 154) ;
+    font-size: 30px;
+    font-weight: 500;
+    color: aqua;
+    letter-spacing: 2px ;
+    cursor: pointer;
+}
+
+.body__name{
+    
+    text-transform:uppercase ;
+    display: inline-block;
+    color: white;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.body__name:hover{
+    text-shadow:1px 3px white  ;
+    color: aqua;
+    letter-spacing: 2px;
+    font-size: 35px;
+    cursor: pointer;
+}   
+
+.body__web{
+    text-transform:uppercase ;
+    color:rgb(202, 193, 193);
+    opacity: 0.5;
+    letter-spacing: 2px;
+    display: inline-block       ;
+}
+
+.body__web:hover{
+    text-shadow: 1px 3px white;
+    color: aqua;
+    letter-spacing: 2px;
+    font-size: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+ 
+/* botom footer */
+
+footer{
+    border-top: 3px solid white;
+    width: 100%;
+    height: 300px;
+    margin-top: 370px;
+}
+
+.icons{
+    justify-content: space-around;
+    display: flex;
+}
+
+.icons__1 a{
+    text-decoration: none;
+    /* margin: 150px;   */
+    margin-left: 210px;
+    display: inline-block;
+    display: flex;
+}
+
+.icons__1 a:hover{
+    color: rgb(111, 178, 236);
+}
+
+.fa-brands{
+    /* width: 00px; */
+    font-size: 40px;
+    /* color: white; */
+    margin-top: 20px;
+}
+.foydali__kanallar{
+    justify-content: center;
+    text-align: center;
+}
+
+.foydali__kanallar p{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.foydali__kanallar p:hover{
+    color: aqua;
+    text-shadow: 2px 3px white;
+}
+
+.new__links{
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.part_1{
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    /* float: left; */
+}
+.part_2{
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+.new__links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    opacity: .5;
+    color: aliceblue;
+    display: inline-block;
+    margin-right: 50px; 
+}
+
+.new__links a:hover{
+    color: white;
+    opacity: 1;
+    text-shadow: 1px 3px aqua;
+}
